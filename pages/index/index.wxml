@@ -1,0 +1,58 @@
+<!-- index.wxml -->
+<view>
+  <view>
+    <div class="userinfo"></div>
+    <i-card title="【公交卡办理】开始了😁" thumb="../../assets/icon/announce.png">
+      <view slot="content">
+        <view>
+          <view>有需要办理公家卡的小朋友，明天下午四点半之前把名单报给我。</view>
+          <view>
+            办理当天，学生需要带2寸照片，照片后面写上学校名字，交50元钱(押金30元，卡内充值20元)，带身份证或户口本原件，外籍的须带护照，学校提交申请后学生到和平广场营业所办理公交卡手续。(家长亲自带孩子去)
+          </view>
+          <view>具体办理时间另行通知。每学年办理一次，过期不候。所以需要办理的，尽快提交名单。</view>
+        </view>
+      </view>
+      <view slot="footer" class="publish-date">⏰ 发布日期: 2019-09-09</view>
+      <view slot="footer" class="publish-date">👩‍⚖️ 发布人: 唐老师</view>
+    </i-card>
+    <i-card title="【护校安园】招募开始了😁" thumb="../../assets/icon/announce.png">
+      <view slot="content">
+        <view>新学期，“护校安园”的队伍欢迎更多的爱心家长加入！</view>
+        <view>在校园周边义务站岗执勤，避免了孩子、家长们穿行于险象环生、拥堵的车流，他们用自己的实际行动，书写着大爱无疆的崇高，诠释着无私奉献的伟大。</view>
+        <view>
+          其中有很多感人的故事，寒风刺骨、烈日炎炎，有的家长早上义务执勤后，匆匆赶往自己的工作单位；有的家长自己先来执勤，后让家人送孩子来上学；有的家长夫妻共同来执勤；有的带病坚持执勤……他们像雷锋一样，温暖着校园内外，感动着高新中小的老师、孩子、家长们，感染着你、我、他、她、他们。
+        </view>
+        <view>🚀1、每位家长执勤次数：根据执勤人数，（上学期每位家长，大约2个月执勤一次）。</view>
+        <view>
+          🚀2、每次执勤时间：约为早上7:10至7:50，（如果临时有事儿，不能按时执勤，可以在群里打声招呼，会进行调整，如果有家长执勤日期的要求，（比如只有周五有时间，可以在报名时注明）。
+        </view>
+        <view>🚀3.报名方式:9月6日下午四点前私聊我</view>
+      </view>
+      <view slot="footer" class="publish-date">⏰ 发布日期: 2019-09-06</view>
+      <view slot="footer" class="publish-date">👩‍⚖️ 发布人: 唐老师</view>
+    </i-card>
+    <i-card title="【家委会】分工😁" thumb="../../assets/icon/announce.png">
+      <view slot="content">
+        <view>经过这两天的家长自愿报名，我们的家委会初步成立，如果工作中有什么问题及时与我联系。现公布一下家委会名单及分工，希望以后需要合作的地方还请各位家长多多配合</view>
+        <view>
+          <view>🚩生活组:</view>
+          范思睿妈妈(采购)
+          田裕沛妈妈(采购)
+          梁若歆妈妈(收费)
+        </view>
+        <view>🚩劳动组:</view>
+        <view>李诺晴妈妈
+              王依茹赛罕妈妈
+              邢书然妈妈</view>
+        <view>🚩文艺组:</view>
+        <view>张雅琳妈妈(板报画画)
+              刘润镈妈妈(音乐乐器)</view>
+        <view>🚩体育组:</view>
+        <view>苏慕杭爸爸(运动会纪律与队形练习)
+             杨秉锟爸爸(运动会纪律与队形练习)</view>
+      </view>
+      <view slot="footer" class="publish-date">⏰ 发布日期: 2019-09-06</view>
+      <view slot="footer" class="publish-date">👩‍⚖️ 发布人: 唐老师</view>
+    </i-card>
+  </view>
+</view>

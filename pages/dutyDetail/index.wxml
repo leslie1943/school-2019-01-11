@@ -1,0 +1,9 @@
+<view>
+  <view class="container">
+    <view>日期: {{acceptData.date + '/' + acceptData.weekday}}</view>
+    值日生:
+    <block wx:key="{{index}}" wx:for="{{acceptData.name}}">
+      <view>⭐{{item}}⭐</view>
+    </block>
+  </view>
+</view>

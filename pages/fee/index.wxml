@@ -1,0 +1,6 @@
+<!-- index.wxml -->
+<view>
+  <view>
+    <div class="userinfo">班费已经收齐,共计:4800元</div>
+  </view>
+</view>

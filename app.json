@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/members/index",
+    "pages/fee/index",
+    "pages/duty/index",
+    "pages/dutyDetail/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "高新区2019级一年11班",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#ddd",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/icon/notice.png",
+        "selectedIconPath": "assets/icon/notice-active.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/members/index",
+        "iconPath": "assets/icon/profile.png",
+        "selectedIconPath": "assets/icon/profile-active.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/fee/index",
+        "iconPath": "assets/icon/fee-inactive.png",
+        "selectedIconPath": "assets/icon/fee.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/duty/index",
+        "iconPath": "assets/icon/duty-inactive.png",
+        "selectedIconPath": "assets/icon/duty.png",
+        "text": ""
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,58 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
+Page({
+  data: {
+    members: [
+      { id: "1", name: '苗景尧', first: '任', gender: '男' },
+      { id: "2", name: '李安澜', first: '刘', gender: '男' },
+      { id: "3", name: '周倬旸', first: '于', gender: '男' },
+      { id: "4", name: '苏慕杭', first: '李', gender: '男' },
+      { id: "5", name: '田裕沛', first: '徐', gender: '男' },
+      { id: "6", name: '李昊阳', first: '曹', gender: '男' },
+      { id: "7", name: '刘士彰', first: '郑', gender: '男' },
+      { id: "8", name: '刘涵宇', first: '王', gender: '男' },
+      { id: "9", name: '邹家塬', first: '苏', gender: '男' },
+      { id: "10", name: '孟子祺', first: '任', gender: '男' },
+      { id: "11", name: '李永安', first: '刘', gender: '男' },
+      { id: "12", name: '王梓杰', first: '于', gender: '男' },
+      { id: "13", name: '张瑀田', first: '李', gender: '男' },
+      { id: "14", name: '刘润镈', first: '徐', gender: '男' },
+      { id: "15", name: '郑新宇', first: '曹', gender: '男' },
+      { id: "16", name: '杨秉锟', first: '郑', gender: '男' },
+      { id: "17", name: '关柏森', first: '王', gender: '男' },
+      { id: "18", name: '吴桉锐', first: '苏', gender: '男' },
+      { id: "19", name: '苗宸语', first: '任', gender: '男' },
+      { id: "20", name: '郝一帆', first: '刘', gender: '男' },
+      { id: "21", name: '李鸣飞', first: '刘', gender: '男' },
+      { id: "22", name: '王禹森', first: '于', gender: '男' },
+      { id: "23", name: '石昌轩', first: '李', gender: '男' },
+      { id: "24", name: '张晋吉', first: '徐', gender: '男' },
+      { id: "25", name: '邢书然', first: '曹', gender: '男' },
+      { id: "26", name: '崔素妍', first: '郑', gender: '女' },
+      { id: "27", name: '丁若曦', first: '王', gender: '女' },
+      { id: "28", name: '陈若维', first: '苏', gender: '女' },
+      { id: "29", name: '赵钰涵', first: '任', gender: '女' },
+      { id: "30", name: '金卓萱', first: '刘', gender: '女' },
+      { id: "31", name: '王依茹赛罕', first: '刘', gender: '女' },
+      { id: "32", name: '崔严兮', first: '于', gender: '女' },
+      { id: "33", name: '裴若瑜', first: '李', gender: '女' },
+      { id: "34", name: '范思睿', first: '徐', gender: '女' },
+      { id: "35", name: '田雨昕', first: '曹', gender: '女' },
+      { id: "36", name: '王美懿', first: '郑', gender: '女' },
+      { id: "37", name: '马泽然', first: '王', gender: '女' },
+      { id: "38", name: '许馨戈', first: '苏', gender: '女' },
+      { id: "39", name: '周钰', first: '任', gender: '女' },
+      { id: "40", name: '张雅琳', first: '刘', gender: '女' },
+      { id: "41", name: '林小婷', first: '刘', gender: '女' },
+      { id: "42", name: '梁若歆', first: '于', gender: '女' },
+      { id: "43", name: '龚楚淇', first: '李', gender: '女' },
+      { id: "44", name: '董宇琦', first: '徐', gender: '女' },
+      { id: "45", name: '王稀', first: '曹', gender: '女' },
+      { id: "46", name: '常语格', first: '郑', gender: '女' },
+      { id: "47", name: '李诺晴', first: '王', gender: '女' },
+      { id: "48", name: '齐洪霆峰', first: '苏', gender: '女' }
+    ]
+  },
+})

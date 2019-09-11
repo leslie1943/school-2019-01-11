@@ -1,0 +1,8 @@
+<!-- index.wxml -->
+<view class="container">
+   <!-- <view>此页面目前仅显示班级学生列表</view>
+   <view>无任何其他操作</view> -->
+   <i-cell-group>
+      <i-cell link-type="switchTab" is-link url="/pages/index/index" wx:for="{{members}}" wx:for-item="member" wx:key="{{member.id}}" title="{{member.id + '.' + member.name}}" is-link></i-cell>
+   </i-cell-group>
+</view>
