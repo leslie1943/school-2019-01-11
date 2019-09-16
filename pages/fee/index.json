@@ -1,7 +1,6 @@
 {
   "usingComponents": {
     "i-button": "../../iview/button/index",
-    "i-card": "../../iview/card/index",
-    "i-notice-bar": "../../iview/notice-bar/index"
+    "i-card": "../../iview/card/index"
   }
 }

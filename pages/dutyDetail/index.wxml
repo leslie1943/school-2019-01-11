@@ -1,7 +1,11 @@
 <view>
   <view class="container">
     <view>日期: {{acceptData.date + '/' + acceptData.weekday}}</view>
-    值日生:
+    <i-divider content="今日课程"></i-divider>
+    <view class="course" wx:key="{{index}}" wx:for="{{courses[acceptData.weekday]}}">
+      <view>{{item}}</view>
+    </view>
+    <i-divider content="值日生"></i-divider>
     <block wx:key="{{index}}" wx:for="{{acceptData.name}}">
       <view>⭐{{item}}⭐</view>
     </block>

@@ -1,6 +1,19 @@
 <!-- index.wxml -->
 <view>
-  <view>
-    <div class="userinfo">班费已经收齐,共计:4800元</div>
+  <view class="main">
+    <div>班费已经收齐,共计:4800元</div>
   </view>
+  <i-card class="each-card" wx:for="{{feeList}}" wx:key="{{item.date}}" title="⏰{{item.date}}" extra="🤞{{item.amount}}元">
+    <view slot="content">
+      <view>
+        <text class="label">🦋项目名称:</text>
+        <text class="value">{{item.project}}</text>
+      </view>
+      <view>
+        <text class="label">👩执行人员:</text>
+        <text class="value">{{item.report}}</text>
+      </view>
+    </view>
+    <view slot="footer" class="left-amount">余额:￥{{item.remain}}</view>
+  </i-card>
 </view>

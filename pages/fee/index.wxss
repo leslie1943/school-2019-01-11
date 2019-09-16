@@ -1,10 +1,20 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main{
+  text-align: center;
+  margin-bottom: 10px;
 }
-
-.publish-date{
-  color:orange;
+.label{
+  /* font-weight: bold; */
+  margin-right: 10px;
+  color:#409EFF;
+  font-size: small;
+}
+.value{
+  font-size: small;
+}
+.each-card{
+  margin:10px;
+}
+.left-amount{
+  color:#67C23A;
 }
