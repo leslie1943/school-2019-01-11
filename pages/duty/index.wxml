@@ -1,6 +1,6 @@
 <!-- index.wxml -->
 <view class="container">
-  <view style="color:#67C23A;font-size:larger;">9月/10月 - 值日表</view>
+  <view style="color:#67C23A;font-size:larger;">值日表</view>
   <i-cell-group>
     <i-cell bind:click="toDutyDetail" is-link wx:for="{{dutyList}}" wx:for-item="item" wx:key="{{item.key}}" title="{{item.date + '.' + item.weekday}}" data-item="{{item}}" wx:if="{{item.key>=today}}">
       <i-icon wx:if="{{item.holiday}}" slot="icon" type="emoji" size="28" color="#409EFF" />
